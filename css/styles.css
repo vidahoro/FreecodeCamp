@@ -10,5 +10,36 @@ body{
 
 }
 header{
-    background-color: green;
+    background-color: #FD9B31;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    font-family:sans-serif;
+    flex-direction: column;
+    
+}
+header .header-logo img{
+    width:15rem;
+    height: 6rem;
+}
+.header-text #title{
+    color: #296034;
+}
+header header-text{
+    display: flex;
+
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4D7B57;
+    color: #FFFBFB;
+}
+
+.main-title h1 {
+    font-size: 3rem;
+    font-family: Century;
 }
